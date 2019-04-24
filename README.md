@@ -23,15 +23,15 @@ Introduction of the models represented by the programs:
 
 (1) *abort_consistency_non_tx_reference.ml:* the TM which satisfies abort consistency in general cases, and includes non-transactional instructions
 
-(2) *new_invalid_non_tx_reference:* the TM which satisfies strict serializability in general cases, and includes non-transactional instructions
+(2) *strict_serializability_non_tx_reference.ml:* the TM which satisfies strict serializability in general cases, and includes non-transactional instructions
 
-(3) *new_nrd_eager_tmesi_automaton.ml:* the FlexTM in eager transactional mode, where both variables are on the same cache line and includes non-transactional instructions
+(3) *flextm_eager_one_cache_line.ml:* the FlexTM in eager transactional mode, where both variables are on the same cache line and includes non-transactional instructions
 
-(4) *new_nrd_eager_tmesi_two_cache_line.ml:* the FlexTM in eager transactional mode, where there are two cache lines, with one variable on each of them and includes non-transactional instructions
+(4) *flextm_eager_two_cache_line.ml:* the FlexTM in eager transactional mode, where there are two cache lines, with one variable on each of them and includes non-transactional instructions
 
-(5) *new_nrd_epsilon_tmesi_automaton.ml:* the FlexTM in lazy transactional mode (i.e., the commit is non-atomic), where both variables are on the same cache line and includes non-transactional instructions
+(5) *flextm_lazy_one_cache_line.ml:* the FlexTM in lazy transactional mode (i.e., the commit is non-atomic), where both variables are on the same cache line and includes non-transactional instructions
 
-(6) *new_read_epsilon_tmesi_two_cache_line:* the FlexTM in lazy transactional mode (i.e., the commit is non-atomic), where there are two cache lines, with one variable on each of them and includes non-transactional instructions
+(6) *flextm_lazy_two_cache_line.ml:* the FlexTM in lazy transactional mode (i.e., the commit is non-atomic), where there are two cache lines, with one variable on each of them and includes non-transactional instructions
 
 ****************************************************************************************************************************
 
