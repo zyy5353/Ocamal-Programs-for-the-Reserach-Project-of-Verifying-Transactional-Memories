@@ -1,7 +1,7 @@
 # Ocamal Programs for the Reserach Project of Verifying Transactional Memories
-This folder includes the automomata models implemented for the paper [*Verifying Safety and Liveness for the FlexTM Hybrid Transactional Memory*](http://user.it.uu.se/~yunzh803/date_2013.pdf) [[3]](#references) published at the conference [DATE 2013](https://www.date-conference.com/date13/) (author names are ordered alphabetically). The models are implemented in the functional programming language [Ocaml](https://ocaml.org/learn/description.html). 
+This folder includes the automomata models implemented for the paper [*Verifying Safety and Liveness for the FlexTM Hybrid Transactional Memory*](http://user.it.uu.se/~yunzh803/date_2013.pdf) [[1]](#references) published at the conference [DATE 2013](https://www.date-conference.com/date13/) (author names are ordered alphabetically). The models are implemented in the functional programming language [Ocaml](https://ocaml.org/learn/description.html). 
 
-There are six programs in all, each of which is implemented in the form of an automaton. Every automaton models the system of the FlexTM transactional memory (TM) [[1]](#references), or the reference TM [[2]](#references), with different variations.
+There are six programs in all, each of which is implemented in the form of an automaton. Every automaton models the system of the FlexTM transactional memory (TM) [[2]](#references), or the general TM [[3]](#references), with different variations.
 
 The outputs of a program include: 
 
@@ -15,7 +15,7 @@ In each model, there are
     2) two threads;  
     3) either one or two cache lines.
 
-The languages of the FlexTM automata are  included by the languages of the automata of the reference TM, which means that all the behaviours of FlexTM are good, given that the reference TM characterizes all the good behaviors. The programs are used for the paper published at DATE 2013 [[3]](#references).
+The languages of the FlexTM automata are  included by the languages of the general TM automata. This means that all the behaviours of FlexTM are good, given that the general TM characterizes all the good behaviors. The results are shown in the paper [[1]](#references).
 
 ****************************************************************************************************************************
 
@@ -40,9 +40,9 @@ The models are implemented with [Ocaml](https://ocaml.org/learn/description.html
 ****************************************************************************************************************************
 ## References
 
-[1] R. Guerraoui, T. A. Henzinger, B. Jobstmann, and V. Singh, “Model checking transactional memories,” in PLDI. ACM, 2008, pp. 372–382. 
+[1] P. A. Abdulla, S. Dwarkadas, A. Rezine, A. Shriraman, and Y. Zhu, “Verifying safety and liveness for the FlexTm hybrid transactional memory,” in DATE 13. EDA Consortium San Jose, CA, USA / ACM DL, 2013, pp. 785–790. 
 
-[2] P. A. Abdulla, S. Dwarkadas, A. Rezine, A. Shriraman, and Y. Zhu, “Verifying safety and liveness for the FlexTm hybrid transactional memory,” in DATE 13. EDA Consortium San Jose, CA, USA / ACM DL, 2013, pp. 785–790. 
+[2] A. Shriraman, S. Dwarkadas, and M. L. Scott, “Flexible decoupled transactional memory support,” in ISCA. IEEE, 2008, pp. 139–150. 
 
-[3] A. Shriraman, S. Dwarkadas, and M. L. Scott, “Flexible decoupled transactional memory support,” in ISCA. IEEE, 2008, pp. 139–150. 
+[3] R. Guerraoui, T. A. Henzinger, B. Jobstmann, and V. Singh, “Model checking transactional memories,” in PLDI. ACM, 2008, pp. 372–382. 
 
