@@ -1,5 +1,5 @@
 # Verifying-Safety-and-Liveness-for-the-FlexTM-Hybrid-Transactional-Memory
-This folder includes the automomata models implemented with Ocaml in the paper [*Verifying-Safety-and-Liveness-for-the-FlexTM-Hybrid-Transactional-Memory*](http://user.it.uu.se/~yunzh803/date_2013.pdf) (author names are ordered alphabetically) published at the conference [DATE 2013](https://www.date-conference.com/date13/) (Design, Automation & Test in Europe). 
+This folder includes the automomata models implemented with [Ocaml](https://ocaml.org/learn/description.html) in the paper [*Verifying-Safety-and-Liveness-for-the-FlexTM-Hybrid-Transactional-Memory*](http://user.it.uu.se/~yunzh803/date_2013.pdf) (author names are ordered alphabetically) published at the conference [DATE 2013](https://www.date-conference.com/date13/) (Design, Automation & Test in Europe). 
 
 There are six programs in all, each of which represents an automaton based on the model of FlexTM transactional memory (TM) [1], or the model of the TM in general cases [2] with different variations. 
 
@@ -35,14 +35,7 @@ Introduction of the models represented by the programs:
 
 ****************************************************************************************************************************
 
-The programs were implemented with Ocaml, an open source programming language. 
-
-For more information about the usage of Ocaml: 
-	https://caml.inria.fr/pub/docs/u3-ocaml/index.html and  
-	http://caml.inria.fr/pub/docs/manual-ocaml/ 
-
-and the installation of Ocaml: 
-  https://ocaml.org  
+Ocaml is an open source programming language. Please check the [lecture notes](https://caml.inria.fr/pub/docs/u3-ocaml/index.html) and [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/) for detailed information. It is available for [installation](https://ocaml.org).
 
 ****************************************************************************************************************************
 
