@@ -1,7 +1,7 @@
 # Ocamal Programs for the Reserach Project of Verifying Transactional Memories
 This folder includes the automomata models implemented for the paper [*Verifying Safety and Liveness for the FlexTM Hybrid Transactional Memory*](http://user.it.uu.se/~yunzh803/date_2013.pdf) [[3]](#references) published at the conference [DATE 2013](https://www.date-conference.com/date13/) (author names are ordered alphabetically). The models are implemented in the functional programming language [Ocaml](https://ocaml.org/learn/description.html). 
 
-There are six models in all, each of which is repesented with an automaton that abstracts various versions of the  FlexTM transactional memory (TM) [[1]](#references), or the TM in general cases [[2]](#references). 
+There are six programs in all, each of which is implemented in the form of an automaton. Every automaton models the system of the FlexTM transactional memory (TM) [[1]](#references), or the reference TM [[2]](#references), with different variations.
 
 The outputs of a program include: 
 
@@ -15,7 +15,7 @@ In each model, there are
     2) two threads;  
     3) either one or two cache lines.
 
-The languages of the automata of the TM in general case include the languages of the FlexTM automata. The programs are used for the paper published at DATE 2013 [[3]](#references).
+The languages of the FlexTM automata are  included by the languages of the automata of the reference TM, which means that all the behaviours of FlexTM are good, given that the reference TM characterizes all the good behaviors. The programs are used for the paper published at DATE 2013 [[3]](#references).
 
 ****************************************************************************************************************************
 
