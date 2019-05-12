@@ -35,7 +35,7 @@ Introduction of the models represented by the programs:
 
 ****************************************************************************************************************************
 
-Ocaml is an open source programming language. Please check the [lecture notes](https://caml.inria.fr/pub/docs/u3-ocaml/index.html) and [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/) for detailed information. It is available for [installation](https://ocaml.org).
+The models are implemented with [Ocaml](https://ocaml.org/learn/description.html), an open source programming language. Detailed description of how to understand and use the language can be found in the [lecture notes](https://caml.inria.fr/pub/docs/u3-ocaml/index.html) and the [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/). It is available for [installation](https://ocaml.org).
 
 ****************************************************************************************************************************
 
