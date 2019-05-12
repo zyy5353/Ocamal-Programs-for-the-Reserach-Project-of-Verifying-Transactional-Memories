@@ -1,5 +1,5 @@
 # Verifying-Safety-and-Liveness-for-the-FlexTM-Hybrid-Transactional-Memory
-(Automomata programs in the paper with the title above published at the conference DATE 2013)
+This folder includes the automomata models implemented with Ocaml in the paper "Verifying-Safety-and-Liveness-for-the-FlexTM-Hybrid-Transactional-Memory" published at the conference DATE (Design, Automation & Test in Europe) 2013. Conference link: (Design, Automation & Test in Europe)
 
 This folder includes six programs, each of which represents an automaton based on the model of FlexTM transactional memory (TM) [1], or the model of the TM in general cases [2] with different variations. 
 
