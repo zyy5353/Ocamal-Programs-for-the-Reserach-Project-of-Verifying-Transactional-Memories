@@ -1,7 +1,7 @@
-# Ocamal Programs for the Paper *Verifying Safety and Liveness for the FlexTM Hybrid Transactional Memory* [1]
+# Ocamal Programs for the Project of Verifying Transactional Memories
 This folder includes the automomata models implemented with [Ocaml](https://ocaml.org/learn/description.html), a functional programming language, in the paper [*Verifying-Safety-and-Liveness-for-the-FlexTM-Hybrid-Transactional-Memory*](http://user.it.uu.se/~yunzh803/date_2013.pdf) (author names are ordered alphabetically) published at the conference [DATE 2013](https://www.date-conference.com/date13/) (Design, Automation & Test in Europe). 
 
-There are six programs in all, each of which represents an automaton based on the model of FlexTM transactional memory (TM) [2], or the model of the TM in general cases [3] with different variations. 
+There are six programs in all, each of which represents an automaton based on the model of FlexTM transactional memory (TM) [1], or the model of the TM in general cases [2] with different variations. 
 
 The outputs of a program include: 
 
@@ -15,7 +15,7 @@ In each model, there are
 	2) two threads; and 
 	3) either one or two cache lines.
 
-The languages of the automata of the TM in general case include the languages of the FlexTM automata. The programs are used for the paper published at DATE 2013 [1].
+The languages of the automata of the TM in general case include the languages of the FlexTM automata. The programs are used for the paper published at DATE 2013 [3].
 
 ****************************************************************************************************************************
 
@@ -38,9 +38,9 @@ Introduction of the models represented by the programs:
 The models are implemented with [Ocaml](https://ocaml.org/learn/description.html), an open source functional programming language. Detailed description of how to understand and use the language can be found in the [lecture notes](https://caml.inria.fr/pub/docs/u3-ocaml/index.html) and the [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/). It is available for [installation](https://ocaml.org).
 
 ****************************************************************************************************************************
-[1] P. A. Abdulla, S. Dwarkadas, A. Rezine, A. Shriraman, and Y. Zhu, “Verifying safety and liveness for the FlexTm hybrid transactional memory,” in DATE 13. EDA Consortium San Jose, CA, USA / ACM DL, 2013, pp. 785–790. 
+[1] R. Guerraoui, T. A. Henzinger, B. Jobstmann, and V. Singh, “Model checking transactional memories,” in PLDI. ACM, 2008, pp. 372–382. 
 
-[2] A. Shriraman, S. Dwarkadas, and M. L. Scott, “Flexible decoupled transactional memory support,” in ISCA. IEEE, 2008, pp. 139–150. 
+[2] P. A. Abdulla, S. Dwarkadas, A. Rezine, A. Shriraman, and Y. Zhu, “Verifying safety and liveness for the FlexTm hybrid transactional memory,” in DATE 13. EDA Consortium San Jose, CA, USA / ACM DL, 2013, pp. 785–790. 
 
-[3] R. Guerraoui, T. A. Henzinger, B. Jobstmann, and V. Singh, “Model checking transactional memories,” in PLDI. ACM, 2008, pp. 372–382. 
+[3] A. Shriraman, S. Dwarkadas, and M. L. Scott, “Flexible decoupled transactional memory support,” in ISCA. IEEE, 2008, pp. 139–150. 
 
